@@ -32,7 +32,11 @@ export default function Home() {
         several web-technologies. I specialize in React.js and
         Ruby on Rails and I have experience with other langauges and frameworks. I currently work remote as a freelance developer
         and I am always able to take on new projects. Need some help building a website?
-        <h3 style={{ color: '#2AB67B', textAlign: 'center' }}>Contact me</h3></p>
+        </p>
+        <a href="#contact">
+        <h3 style={{ color: '#2AB67B', textAlign: 'center' }}>Contact me</h3>
+        </a>
+
       </div>
       <div className='home-divs'>
         <h1>My Portfolio</h1>
@@ -56,7 +60,7 @@ export default function Home() {
 
         </center>
       </div>
-      <div className='home-divs-contact'>
+      <div id="contact" className='home-divs-contact'>
         <h1>Contact Me</h1>
         <center>
           <form onSubmit={sendEmail}>

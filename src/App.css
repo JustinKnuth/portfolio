@@ -139,9 +139,11 @@ color: #0C2D48;
 }
 
 .email-button:hover{
-  background-color: hotpink;
+  background-color: #2AB67B;
   color:white;
-  border-style: solid;
-  border-color: #2AB67B;
-  border-radius: 15%;
+  font-size: 30px;
+}
+
+.images{
+  width: 150px;
 }
