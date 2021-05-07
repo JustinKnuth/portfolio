@@ -1,4 +1,27 @@
-
+import a from "../assets/a.jpg"
+import b from "../assets/b.jpg"
+import c from "../assets/c.jpg"
+import d from "../assets/d.jpg"
+import e from "../assets/e.jpeg"
+import f from "../assets/f.jpeg"
+import g from "../assets/g.jpeg"
+import h from "../assets/h.JPG"
+import i from "../assets/i.jpeg"
+import j from "../assets/j.jpeg"
+import k from "../assets/k.JPG"
+import l from "../assets/l.jpeg"
+import m from "../assets/m.jpeg"
+import n from "../assets/n.jpeg"
+import o from "../assets/o.jpeg"
+import p from "../assets/p.jpeg"
+import q from "../assets/q.jpeg"
+import r from "../assets/r.jpeg"
+import s from "../assets/s.jpeg"
+import t from "../assets/t.jpeg"
+import u from "../assets/u.jpeg"
+import v from "../assets/v.jpeg"
+import w from "../assets/w.jpeg"
+import Carousel from 'nuka-carousel'
 
 
 export default function Images() {
@@ -7,33 +30,35 @@ export default function Images() {
 
 
   return (
-    <div>
-      <h1>Where are my images</h1>
-      <center>
-      <img className="images" src="components/assets/1.jpg" alt=""/>
-      <img className="images" src="./assets/2" alt=""/>
-      <img className="images" src="../3" alt=""/>
-      <img className="images" src="/4" alt=""/>
-      <img className="images" src="/assets/5" alt=""/>
-      <img className="images" src="/6" alt=""/>
-      <img className="images" src="../assets/7" alt=""/>
-      <img className="images" src="../assets/8" alt=""/>
-      <img className="images" src="../assets/9" alt=""/>
-      <img className="images" src="../assets/10" alt=""/>
-      <img className="images" src="../assets/11" alt=""/>
-      <img className="images" src="../assets/12" alt=""/>
-      <img className="images" src="../assets/13" alt=""/>
-      <img className="images" src="../assets/14" alt=""/>
-      <img className="images" src="../assets/15" alt=""/>
-      <img className="images" src="../assets/16" alt=""/>
-      <img className="images" src="../assets/17" alt=""/>
-      <img className="images" src="../assets/18" alt=""/>
-      <img className="images" src="../assets/19" alt=""/>
-      <img className="images" src="../assets/20" alt=""/>
-      <img className="images" src="../assets/21" alt=""/>
-      <img className="images" src="../assets/22" alt=""/>
-        <img className="images" src="../assets/23" alt="" />
-        </center>
+    <div className="carousel">
+      <h1>Some of my images</h1>
+     
+        <Carousel autoplay={true}>
+          <img className="images" src={a} alt="" />
+          <img className="images" src={b} alt="" />
+          <img className="images" src={c} alt="" />
+          <img className="images" src={d} alt="" />
+          <img className="images" src={e} alt="" />
+          <img className="images" src={f} alt="" />
+          <img className="images" src={g} alt="" />
+          <img className="images" src={h} alt="" />
+          <img className="images" src={i} alt="" />
+          <img className="images" src={j} alt="" />
+          <img className="images" src={k} alt="" />
+          <img className="images" src={l} alt="" />
+          <img className="images" src={m} alt="" />
+          <img className="images" src={n} alt="" />
+          <img className="images" src={o} alt="" />
+          <img className="images" src={p} alt="" />
+          <img className="images" src={q} alt="" />
+          <img className="images" src={r} alt="" />
+          <img className="images" src={s} alt="" />
+          <img className="images" src={t} alt="" />
+          <img className="images" src={u} alt="" />
+          <img className="images" src={v} alt="" />
+          <img className="images" src={w} alt="" />
+        </Carousel>
+      
     </div>
 
 

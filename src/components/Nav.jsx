@@ -15,7 +15,7 @@ export default function Nav() {
           </a>
           <a href="https://github.com/JustinKnuth" target="_blank"><h3><i className="fab fa-github fa-lg"></i></h3>
           </a>
-          <a href="www.linkedin.com/in/justin-knuth-4334ab183">
+          <a href="https://www.linkedin.com/in/justin-knuth-4334ab183" target="_blank">
           <h3><i className="fab fa-linkedin-in fa-lg"></i></h3>
           </a>
 
