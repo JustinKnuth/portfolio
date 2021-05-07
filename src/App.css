@@ -5,6 +5,10 @@ body {
   background-image: url('background.png');
 }
 
+a:hover{
+  opacity: .2;
+}
+
 
 .nav{
   display: flex;
@@ -89,4 +93,55 @@ color: #0C2D48;
   margin-top:50px;
 }
 
+.home-divs-contact{
+  margin: 0 80px;
+  background-color:#0C2D48;
+  padding: 20px;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  border-radius: 15px;
+  line-height: 30px;
+  margin-top:50px;
+  margin-bottom: 100px;
+}
 
+.project-pics{
+  width: 150px;
+}
+
+.inputs{
+  background: transparent;
+  border-style:double;
+  border-color: #2AB67B;
+  color: hotpink;
+  font-size: 20px;
+  width:60%;
+  margin-top: 20px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.inputs-message{
+  background: transparent;
+  border-style:double;
+  border-color: #2AB67B;
+  color: hotpink;
+  font-size: 20px;
+  width:80%;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.email-button{
+  color: #2AB67B;
+  font-size: 20px;
+  background-color: transparent;
+  border-style: unset;
+}
+
+.email-button:hover{
+  background-color: hotpink;
+  color:white;
+  border-style: solid;
+  border-color: #2AB67B;
+  border-radius: 15%;
+}
