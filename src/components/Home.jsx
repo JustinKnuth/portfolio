@@ -27,13 +27,13 @@ export default function Home() {
       </div>
       <div className='home-divs'>
         <h1>What do I do?</h1>
-        <p> I'm a passionate full-stack developer and I build web-applications
-        for a variety of needs. I make efficient, user-friendly app's, with
+        <p> I'm a full-stack developer and I build web-applications
+        for a variety of needs. I make efficient, user-friendly app's with
         several web-technologies. I specialize in React.js and
-        Ruby on Rails and I have experience with other langauges and frameworks. I currently work remote as a freelance developer
-        and I am always able to take on new projects. Need some help building a website?
+        Ruby on Rails but I have experience with other langauges and frameworks. I currently work remote as a freelance developer
+        and I am always able to take on new projects. Do you need some help building a website?
         </p>
-        <a href="#contact">
+        <a style={{ textDecoration: 'none' }} href="#contact">
         <h3 style={{ color: '#2AB67B', textAlign: 'center' }}>Contact me</h3>
         </a>
 

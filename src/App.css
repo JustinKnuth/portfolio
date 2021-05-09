@@ -49,9 +49,9 @@ a:hover{
 
 .j{
   color: #F1E9D7;
-  font-size:40px;
+  font-size:20px;
   text-shadow: 12px 12px 2px #145DA0;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .nav h3{
@@ -83,6 +83,10 @@ color: #0C2D48;
   
 }
 
+.fa-file{
+  color:#0C2D48;
+}
+
 .home-divs{
   margin: 0 80px;
   background-color:#0C2D48;
@@ -105,13 +109,12 @@ color: #0C2D48;
 }
 
 .project-pics{
-  width: 150px;
+  width: 180px;
 }
 
 .inputs{
   background: transparent;
-  border-style:double;
-  border-color: #2AB67B;
+  border-style:none;
   color: hotpink;
   font-size: 20px;
   width:60%;
@@ -122,13 +125,17 @@ color: #0C2D48;
 
 .inputs-message{
   background: transparent;
-  border-style:double;
-  border-color: #2AB67B;
+  border-style:none;
   color: hotpink;
   font-size: 20px;
   width:80%;
   margin-top: 20px;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+::placeholder{
+  color:#2AB67B;
+  text-align: center;
 }
 
 .email-button{
@@ -139,7 +146,6 @@ color: #0C2D48;
 }
 
 .email-button:hover{
-  background-color: #2AB67B;
   color:white;
   font-size: 30px;
 }
@@ -147,4 +153,10 @@ color: #0C2D48;
 .carousel{
   width:70%;
   margin: 0 auto;
+}
+
+.resume{
+  width:80%;
+  height:100vw;
+  
 }
