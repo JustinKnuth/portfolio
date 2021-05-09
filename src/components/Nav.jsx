@@ -22,7 +22,7 @@ export default function Nav() {
           <h3><i className="fab fa-linkedin-in fa-lg"></i></h3>
           </a>
 
-          <a href="#contact">
+          <a href="/#contact">
           <h3><i className="fas fa-envelope fa-lg"></i></h3>
           </a>
          
