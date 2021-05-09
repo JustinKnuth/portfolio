@@ -21,6 +21,20 @@ a:hover{
   bottom: 0;
 }
 
+@media screen and (max-width: 600px){
+  .nav{
+    display: unset;
+    background-color: #2AB67B;
+    position: fixed;
+    height: 9%;
+    width:100%;
+    top: unset;
+    bottom: 0;
+   
+  }
+  
+}
+
 .home-header{
   display: flex;
   flex-direction:row;
@@ -54,8 +68,29 @@ a:hover{
   margin-bottom: 40px;
 }
 
+@media screen and (max-width: 600px){
+  .j{
+    visibility: hidden;
+  }
+}
+
+
 .nav h3{
   margin-bottom: 45px;
+}
+
+@media screen and (max-width: 600px){
+  
+  .nav h3{
+    display:inline;
+    
+    
+    margin-bottom: unset;
+    margin: 0 5%;
+    bottom:0;
+    /* align-items: center; */
+  }
+  
 }
 
 .fa-home{
@@ -85,6 +120,13 @@ color: #0C2D48;
 
 .fa-file{
   color:#0C2D48;
+}
+
+@media screen and (max-width: 600px){
+  .fa-home{
+    margin-top: 20px;
+    
+  }
 }
 
 .home-divs{
@@ -158,5 +200,11 @@ color: #0C2D48;
 .resume{
   width:80%;
   height:100vw;
-  
+
+}
+
+.resume-link{
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
 }

@@ -15,6 +15,9 @@ export default function Nav() {
           </a>
           <a href="https://github.com/JustinKnuth" target="_blank"><h3><i className="fab fa-github fa-lg"></i></h3>
           </a>
+          <a href="/resume">
+          <h3><i className="fas fa-file fa-lg"></i></h3>
+          </a>
           <a href="https://www.linkedin.com/in/justin-knuth-4334ab183" target="_blank">
           <h3><i className="fab fa-linkedin-in fa-lg"></i></h3>
           </a>
@@ -24,9 +27,6 @@ export default function Nav() {
           </a>
           <a href="/images">
           <h3><i className="far fa-image fa-lg"></i></h3>
-          </a>
-          <a href="/resume">
-          <h3><i className="fas fa-file fa-lg"></i></h3>
           </a>
 
 
