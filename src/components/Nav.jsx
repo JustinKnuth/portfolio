@@ -25,9 +25,7 @@ export default function Nav() {
           <a href="#contact">
           <h3><i className="fas fa-envelope fa-lg"></i></h3>
           </a>
-          <a href="/images">
-          <h3><i className="far fa-image fa-lg"></i></h3>
-          </a>
+         
 
 
           <h1 className='j'>J</h1>
